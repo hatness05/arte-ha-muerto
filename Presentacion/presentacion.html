@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="cuervo.png">
+    <title>"Arte" Ha muerto</title>
+</head>
+<body>
+    <header>
+        <img src="unap.png" alt="">
+        <img src="fisi.png" alt="">
+    </header>
+    <div class="sub">
+        <ul class="menu">
+            <li>
+                <details>
+                    <summary>Nombre</summary>
+                    <p>Yque López Estefano Vito Francesco</p>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>Curso</summary>
+                    <p>Informática II</p>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>Profesor</summary>
+                    <p>Ing. Luis Honorato Pita Astengo, Msc. 1</p>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>Ciclo</summary>
+                    <p>II</p>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>Índice</summary>
+                    <ul>
+                        <li>
+                            <a href="../Principal/principal.html">Historia del Arte (Introducción)</a>
+                        </li>
+                        <li>
+                            <a href="../Contenido1/secundario1.html">Sentimientos Humanos</a>
+                        </li>
+                        <li>
+                            <a href="../Contenido2/secundario2.html">Estancamiento</a>
+                        </li>
+                        <li>
+                            <a href="../Contenido3/secundario3.html">Esperanza</a>
+                        </li>
+                        <li>
+                            <a href="../Fuentes/fuentes.html">Fuentes Bibliográficas</a>
+                        </li>
+                    </ul>
+                </details>
+            </li>
+        </ul>
+    </div>
+
+    <h1 class="titulo">"ARTE" HA MUERTO</h1>
+    <section class="banner">
+        <a href="https://es.wikipedia.org/wiki/La_escuela_de_Atenas#:~:text=Table_title:%20La%20escuela%20de%20Atenas%20Table_content:%20header:,Vaticanos%20(Palacio%20Apost%C3%B3lico)%2C%20Ciudad%20del%20Vaticano%20%7C" target="_blank">
+            <img title="Saber más" src="escueladeatenas.jpg" alt="La escuela de Atenas">
+        </a>
+        <a href="https://es.wikipedia.org/wiki/El_nacimiento_de_Venus_(Botticelli)" target="_blank">
+            <img title="Saber más" src="nacimientodevenus.webp" alt="El nacieminto de Venus">
+        </a>
+    </section>
+
+        <a href="../Principal/principal.html" class="boton">COMENZAR</a>
+
+    <section class="frases">
+        
+        <div class="f1">
+            <img class="img1" src="Wyndhamlewis.jpg" alt="">
+            <div class="texto">
+                <p>“El arte moderno es un fraude organizado por quienes no pueden dibujar.”</p>
+                <p class="autor">Wyndham Lewis</p>
+            </div>
+        </div>
+
+        <div class="f1">
+            <div class="texto">
+                <p>“El arte moderno es como una comida indigesta: nadie lo entiende, pero todos fingen que sí.”</p>
+                <p class="autor">Salvador Dalí</p>
+            </div>
+            <img class="img2" src="salvadordali.jpg" alt="">    
+                
+        </div>
+
+        <div class="f1">
+            <img class="img3" src="robertflo.jpeg" alt="">
+            <div class="texto">
+                <p>“El arte ya no busca la belleza; ahora celebra lo feo, lo vulgar y lo vacío.”</p>
+                <p class="autor">Robert Florczak</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script>
+    document.addEventListener("click", (e) => {
+    document.querySelectorAll("details").forEach(detalle => {
+      if (detalle.open && !detalle.contains(e.target)) {
+        detalle.open = false;
+      }
+    });
+  });
+
+</script>
+
+</html>

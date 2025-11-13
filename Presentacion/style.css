@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 70px;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+}
+
+details p{
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    z-index: 9;
+    text-align: center;
+}
+
+details ul{
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 2px rgb(0,0,0,0.5);
+    width: 300px;
+    z-index: 9;
+}
+
+details li{
+    background-color: white;
+    border: 2px solid black;
+    width: 100%;
+    z-index: 9;
+    font-size: 25px;
+    text-align: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover{
+    color: red;
+}
+
+header img{
+    height: 100%;
+}
+
+.menu{
+    display: flex;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.menu li{
+    margin: auto;
+    list-style: none;
+}
+
+summary{
+    list-style: none;
+    cursor: pointer;
+}
+
+summary:hover{
+    color: red;
+}
+
+.banner{
+    display: flex;
+    height: 80vh;
+}
+
+.titulo{
+    position: absolute;
+    top: 30vh;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 80px;
+    width: 50%;
+    text-align: center;
+    z-index: 8;
+    border: white double 5px;
+    background-color: rgb(0,0,0,0.5);
+}
+
+.banner a{
+    width: 50%;
+}
+
+.banner a img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.banner img:hover{
+    filter: brightness(70%);
+}
+
+.boton{
+    position: absolute;
+    text-decoration: none;
+    top: 70vh;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    border: white 2px inset;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.boton:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.frases img{
+    width: 30%;
+}
+
+.f1{
+    display: flex;
+    background-color: black;
+}
+
+.texto{
+    margin: auto;
+    color: white;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.autor{
+    text-align: right;
+    margin-top: 50px;
+}
